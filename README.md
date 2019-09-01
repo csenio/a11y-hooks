@@ -15,6 +15,7 @@ A set of hooks to make it easy for everyone to make their site more accessible a
 - check [here](https://codesandbox.io/embed/usefocus-example-ttpys) for example usage.
 
 `const bind = useFocus(shouldFocus?: boolean)`
+`<input {...bind} />`
 
 ### Arguments
 
