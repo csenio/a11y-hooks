@@ -1,3 +1,5 @@
+![](https://badgen.net/bundlephobia/minzip/a11y-hooks)
+
 # React a11y hooks 🎣♿
 
 > A set of hooks to make it easy for everyone to make their site more accessible and improve their ux.
