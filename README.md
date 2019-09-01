@@ -11,7 +11,7 @@ A set of hooks to make it easy for everyone to make their site more accessible a
 
 ## useFocus
 
-- Programmatically focuses bound element on mount or, if shouldFocus is set to true.
+- Programmatically focuses bound element on mount or whenever shouldFocus is set to true.
 - check [here](https://codesandbox.io/embed/usefocus-example-ttpys) for example usage.
 
 `const bind = useFocus(shouldFocus?: boolean)`
