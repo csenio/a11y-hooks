@@ -3,7 +3,7 @@
 
 # React a11y hooks 🎣♿
 
-> A set of hooks to make it easy for everyone to make their site more accessible and improve their ux.
+A set of hooks to make it easy for everyone to make their site more accessible and improve their ux.
 
 ### table of contents:
 
