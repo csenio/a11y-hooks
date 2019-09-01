@@ -1,4 +1,5 @@
 ![](https://badgen.net/bundlephobia/minzip/a11y-hooks)
+![](https://badgen.net/npm/v/a11y-hooks)
 
 # React a11y hooks 🎣♿
 
