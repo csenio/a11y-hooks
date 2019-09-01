@@ -1,5 +1,5 @@
-![https://bundlephobia.com/result?p=a11y-hooks@0.1.0](https://badgen.net/bundlephobia/minzip/a11y-hooks)
-![https://www.npmjs.com/package/a11y-hooks](https://badgen.net/npm/v/a11y-hooks)
+[![](https://badgen.net/bundlephobia/minzip/a11y-hooks)](https://bundlephobia.com/result?p=a11y-hooks@0.1.0)
+[![](https://badgen.net/npm/v/a11y-hooks)](https://www.npmjs.com/package/a11y-hooks)
 
 # React a11y hooks 🎣♿
 
