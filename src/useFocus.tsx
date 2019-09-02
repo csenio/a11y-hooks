@@ -1,15 +1,15 @@
-import * as React from 'react';
+import React from 'react';
 
 // useFocus
 interface UseFocusOptions {
   shouldFocus?: boolean;
-  ref?: any; //@todo type this
+  ref?: React.RefObject<HTMLElement>;
 }
 
 const useFocus = ({
   shouldFocus = true,
   ref: receivedRef,
-}: UseFocusOptions) => {
+}: UseFocusOptions): { ref: React.RefObject<HTMLElement> } | undefined => {
   const createdRef = React.useRef<HTMLElement>(null);
 
   const ref = receivedRef || createdRef;
@@ -20,7 +20,7 @@ const useFocus = ({
     }
   }, [shouldFocus]);
 
-  return { ref };
+  return receivedRef ? undefined : { ref };
 };
 
 export default useFocus;

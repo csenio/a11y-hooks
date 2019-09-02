@@ -1,6 +1,6 @@
 {
   "name": "a11y-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jesco Wuester",
   "main": "dist/index.js",
   "module": "dist/a11y-hooks.esm.js",
