@@ -15,8 +15,15 @@ A set of hooks to make it easy for everyone to make their site more accessible a
 - Programmatically focuses bound element on mount or whenever shouldFocus is set to true.
 - check [here](https://codesandbox.io/embed/usefocus-example-ttpys) for example usage.
 
-`const bind = useFocus({...arguments})`
-`<input {...bind} />`
+```
+const bind = useFocus(arguments?: {
+  shouldFocus?: boolean;
+  ref?: React.RefObject<HTMLElement>;
+})
+
+  ...
+   <input {...bind} />
+```
 
 ### Arguments
 
@@ -32,7 +39,7 @@ A set of hooks to make it easy for everyone to make their site more accessible a
 - Adds class `.user-is-tabbing` to document body if user is using tab, this way things like focus styles can be hidden only when the user is navigating via keyboard.
 - check [here](https://codesandbox.io/s/usedetectkeyboard-example-uqqlh) for example usage.
 
-```
+```js
 // in your app.js
 function App() {
   useDetectKeyboard();
@@ -41,7 +48,7 @@ function App() {
 
 - also returns a boolean
 
-```
+```js
 // with styled components
  function App() {
   const usesTab: boolean = useDetectKeyboard();
