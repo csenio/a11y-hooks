@@ -12,6 +12,7 @@
 - check [here](https://codesandbox.io/embed/usefocus-example-ttpys) for example usage.
 
 `const bind = useFocus(shouldFocus?: boolean)`
+`<input {...bind} />`
 
 ### Arguments
 
