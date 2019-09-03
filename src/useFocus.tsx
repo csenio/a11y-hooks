@@ -6,11 +6,13 @@ interface UseFocusOptions {
   ref?: React.RefObject<HTMLElement>;
 }
 
-const useFocus = ({
-  shouldFocus = true,
-  ref: receivedRef,
-}: UseFocusOptions): { ref: React.RefObject<HTMLElement> } | undefined => {
+const useFocus = (
+  options: UseFocusOptions
+): { ref: React.RefObject<HTMLElement> } | undefined => {
   const createdRef = React.useRef<HTMLElement>(null);
+
+  const optionObject = options || {};
+  const { shouldFocus = true, ref: receivedRef } = optionObject;
 
   const ref = receivedRef || createdRef;
 
